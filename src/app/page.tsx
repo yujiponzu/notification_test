@@ -1,7 +1,7 @@
 import React from 'react';
-import { NotificationForm } from '../components/NotificationForm';
-import { NotificationList } from '../components/NotificationList';
-import { useNotificationScheduler } from '../hooks/useNotificationScheduler';
+import { NotificationForm } from '@/components/NotificationForm';
+import { NotificationList } from '@/components/NotificationList';
+import { useNotificationScheduler } from '@/hooks/useNotificationScheduler';
 
 const HomePage = () => {
   const { times, addTime, removeTime } = useNotificationScheduler();

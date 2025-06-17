@@ -1,9 +1,9 @@
 "use client";
 
 import React from 'react';
-import { NotificationForm } from './NotificationForm';
-import { NotificationList } from './NotificationList';
-import { useNotificationScheduler } from '../hooks/useNotificationScheduler';
+import { NotificationForm } from '@/components/NotificationForm';
+import { NotificationList } from '@/components//NotificationList';
+import { useNotificationScheduler } from '@/hooks/useNotificationScheduler';
 
 export const NotificationApp: React.FC = () => {
   const { times, addTime, removeTime } = useNotificationScheduler();
