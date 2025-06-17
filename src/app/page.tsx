@@ -1,5 +1,3 @@
-"uses client";
-
 import React from 'react';
 import { NotificationForm } from '../components/NotificationForm';
 import { NotificationList } from '../components/NotificationList';
