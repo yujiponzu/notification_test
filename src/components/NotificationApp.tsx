@@ -1,4 +1,3 @@
-// components/NotificationApp.tsx
 "use client";
 
 import React from 'react';
